@@ -7,3 +7,4 @@ This repository contains examples of Vue applications. Each example is a part of
 ## Summary
 
 - [vue-with-pinia-colada](/vue-with-pinia-colada/): This a example for integration Vue with Pinia Colada.
+- [vue-with-tanstack-vue](/vue-with-tanstack-vue/): This a example for integration Vue with Tanstack Query Vue.
