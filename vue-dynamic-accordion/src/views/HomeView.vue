@@ -56,5 +56,23 @@ const defaultModel = ref<Record<string, string>>({});
 
     <span>Multiple Accordion without slots</span>
     <VueAccordion type="multiple" :items="items" />
+
+    <span>Multiple Accordion without header slot</span>
+    <VueAccordion type="multiple" :items="items">
+      <template #content="{ item }">
+        <span>
+          {{ item.content }}
+        </span>
+      </template>
+    </VueAccordion>
+
+    <span>Multiple Accordion without content slot</span>
+    <VueAccordion type="multiple" :items="items">
+      <template #header="{ item }">
+        <span>
+          {{ item.title }}
+        </span>
+      </template>
+    </VueAccordion>
   </section>
 </template>
