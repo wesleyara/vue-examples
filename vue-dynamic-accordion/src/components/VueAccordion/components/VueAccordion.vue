@@ -16,6 +16,8 @@ const isOpen = (key: string) => {
 };
 
 const handleSelect = (key: string) => {
+  if (props.disabled) return;
+
   const isSingle = props.type === "single";
 
   if (isSingle) {
