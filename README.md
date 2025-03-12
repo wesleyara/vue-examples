@@ -12,3 +12,4 @@ This repository contains examples of Vue applications. Each example is a part of
 - [vue-lib-template](/vue-lib-template/): This a example source for a Vue library template.
 - [vue-dynamic-accordion](/vue-dynamic-accordion/): This a example source for a Vue application that uses a dynamic accordion.
 - [vue-tree-view](/vue-tree-view/): This a example source for a Vue application that uses a tree view.
+- [vue-dynamic-material-symbols](/vue-dynamic-material-symbols/): This a example source for a Vue application that uses dynamic material symbols imports.
